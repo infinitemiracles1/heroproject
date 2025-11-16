@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The HERO Project™</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'hero-bg': '#1A233A', // Dark Navy Blue
+              'hero-surface': '#2C3A57', // Lighter Navy/Slate
+              'hero-border': '#4F627A', // Muted Blue-Gray
+              'hero-text-primary': '#F0F4F8', // Off-White
+              'hero-text-secondary': '#A0AEC0', // Soft Gray
+              'hero-primary': '#B84A5B', // Muted Red
+              'hero-primary-hover': '#A04050', // Darker Muted Red
+              'hero-accent': '#6B87A8', // Steel Blue
+              'hero-gold': '#FFC700', // Gold for the star icon
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-hero-bg text-hero-text-primary">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

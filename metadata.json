@@ -1,0 +1,8 @@
+{
+  "name": "The HERO Project™",
+  "description": "An AI-powered ecosystem designed to prevent veteran suicide, support recovery, and activate lifelong leadership. Featuring trauma-informed conversational AI, adaptive fitness planning, and creative tools for healing.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
